@@ -53,7 +53,7 @@ class _CVPreviewScreenState extends State<CVPreviewScreen> {
   void initState() {
     super.initState();
     // Initialize the Gemini client with your API key.
-    gemini = Gemini.init(apiKey: "AIzaSyCHVV6wFR_GTYfv5EW0epcWiB-hh46PWiA"); // IMPORTANT: Replace with your actual API key
+    gemini = Gemini.init(apiKey: "123"); // IMPORTANT: Replace with your actual API key
 
     // Immediately start fetching the AI-generated content.
     _fetchAICVContent();
